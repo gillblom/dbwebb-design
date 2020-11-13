@@ -8,6 +8,7 @@ html, body {
     height: 100%;
 }
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -17,7 +18,7 @@ body {
 
 .site-header {
     flex: 0 0 auto;
-    background-color: #e74c3c;
+    background-color: #5291cc;
     color: #2b2e30;
     padding: 0 2em;
 }
@@ -26,18 +27,37 @@ body {
     color: #2b2e30;
 }
 
+.logo {
+    padding-top: 20px;
+}
+
+.logo img{
+    max-width: 320px;
+    height: 320px;
+}
+
 /* Main */
 
 .main {
     flex: 1 0 auto;
     padding: 2em;
+    padding-left: 10em;
+
+}
+.main text{
+    width: 70%;
+}
+
+.main img{
+    float: right;
+    padding: 30px;
 }
 
 /* Footer */
 
 .site-footer {
     flex: 0 0 auto;
-    background: #e74c3c;
+    background: #5291cc;
     color: #2b2e30;
     padding: 2em;
 }
@@ -45,3 +65,18 @@ body {
 .site-footer a {
     color: #f0f0f0;
 }
+
+.site-footer p {
+    margin: 0;
+    padding: 3em 0;
+}
+.site-footer .social {
+    float: right;
+    padding: 1.5em 0 1.5em 1em;
+    font-size: 2rem;
+}
+/*** BASIC LAYOUT: FOOTER ***/
+
+
+
+
